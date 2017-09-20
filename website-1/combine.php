@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" " href="css/animate.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- jquery below added the nav on scorll effect -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -42,9 +43,9 @@
   		</div>	
   	</nav>
 
-  	<div class="jumbotron text-center heights-4">
+  	<div class="jumbotron text-center heights-4 animated fadeIn bg-purple">
   	<br><br><br>
-  		<h1>Hiring jobs</h1>
+  		<h1 class="fadeIn ">Hiring jobs</h1>
   		<p>We specialize in constructions, babysitter, messages, and other odd jobs</p>
   		  <form class="form-inline">
 		    <div class="input-group">
@@ -58,7 +59,7 @@
 
   	<div class="container-fluid" id="about">
   		<div class="row">
-  			<div class="col-sm-8">
+  			<div class="col-sm-8 ">
   				<h2>About our page</h2><br>
   				<h4>Our goal is to connect between people who are looking for anyone that can do odd jobs for them with anyone who are willing to do it. 
   				we wanted to provide an easy to use service for both sides.</h4><br>
