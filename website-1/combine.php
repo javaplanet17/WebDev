@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <!-- jquery below added the nav on scorll effect -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -43,7 +42,8 @@
   		</div>	
   	</nav>
 
-  	<div class="jumbotron text-center">
+  	<div class="jumbotron text-center heights-4">
+  	<br><br><br>
   		<h1>Hiring jobs</h1>
   		<p>We specialize in constructions, babysitter, messages, and other odd jobs</p>
   		  <form class="form-inline">
@@ -96,62 +96,62 @@
 	  <div class="row slideanim">
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-off logo-small"></span>
-	      <h4>POWER</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <h4>Strength</h4>
+	      <p>We are only giving you the best material for the best performance</p>
 	    </div>
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-heart logo-small"></span>
-	      <h4>LOVE</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <h4>Friendly</h4>
+	      <p>Staff friendliness can be rated by customers</p>
 	    </div>
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-lock logo-small"></span>
-	      <h4>JOB DONE</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <h4>Well Done</h4>
+	      <p>We will not rest until you are satisfied with our work</p>
 	    </div>
 	  </div>
 	  <br><br>
 	  <div class="row slideanim">
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-leaf logo-small"></span>
-	      <h4>GREEN</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <h4>Saving</h4>
+	      <p>We are giving you the best experience for the lowest price</p>
 	    </div>
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-certificate logo-small"></span>
-	      <h4>CERTIFIED</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <h4>Proffessional</h4>
+	      <p>All the worker here have previous experiences</p>
 	    </div>
 	    <div class="col-sm-4">
 	      <span class="glyphicon glyphicon-wrench logo-small"></span>
 	      <h4 style="color:#303030;">HARD WORK</h4>
-	      <p>Lorem ipsum dolor sit amet..</p>
+	      <p>All of the employee are a hard worker.</p>
 	    </div>
 	  </div>
 	</div>
   		
   	<!-- Container (Portfolio Section) -->
-	<div id="portfolio" class="container-fluid text-center bg-grey">
-	  <h2>Portfolio</h2><br>
+	<div id="portofolio" class="container-fluid text-center bg-grey">
+	  <h2>Previous Works</h2><br>
 	  <h4>What we have created</h4>
 	  <div class="row text-center slideanim">
 	    <div class="col-sm-4">
 	      <div class="thumbnail">
-	        <img src="paris.jpg" alt="Paris" width="400" height="300">
+	        <img src="asset/1.jpg" alt="Paris" width="400" height="300">
 	        <p><strong>Paris</strong></p>
 	        <p>Yes, we built Paris</p>
 	      </div>
 	    </div>
 	    <div class="col-sm-4">
 	      <div class="thumbnail">
-	        <img src="newyork.jpg" alt="New York" width="400" height="300">
+	        <img src="asset/2.jpg" alt="New York" width="400" height="300">
 	        <p><strong>New York</strong></p>
 	        <p>We built New York</p>
 	      </div>
 	    </div>
 	    <div class="col-sm-4">
 	      <div class="thumbnail">
-	        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
+	        <img src="asset/3.jpg" alt="San Francisco" width="400" height="300">
 	        <p><strong>San Francisco</strong></p>
 	        <p>Yes, San Fran is ours</p>
 	      </div>
@@ -159,7 +159,7 @@
 	  </div><br>
 
   	  <h2>What our customers say</h2>
-	 <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+	 <div id="myCarousel" class="carousel slide text-center heights-3" data-ride="carousel">
 	    <!-- Indicators -->
 	    <ol class="carousel-indicators">
 	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
