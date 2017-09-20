@@ -1,8 +1,8 @@
 /*variable here */
-$color-green:green;
-$average-height:900px;
-$newtest:500px;
-
+$blue:#2400FF;
+$red:#FF0000;
+$green:#00FF1E;
+$purple:#BA00FF;
 
 /* DONT FORGET TO TURN ON SASS ON CMD BEFORE CODING */
 /* DONT FORGET TO TURN ON SASS ON CMD BEFORE CODING */
@@ -11,3 +11,45 @@ $newtest:500px;
 /* DONT FORGET TO TURN ON SASS ON CMD BEFORE CODING */
 
 /* code start here*/
+
+.font-white{
+	color:white;
+}
+.bg-blue{
+	background-color:$blue;
+}
+.bg-red{
+	background-color:$red;
+}
+.bg-green{
+	background-color:$green;
+}
+.bg-purple{
+	background-color:$purple;
+}
+.navbar-non{
+	border:none;
+	list-style:none;
+}
+
+width-100{
+	width:100%;
+}
+
+.heights-3{
+	height:300px;
+}
+.heights-4{
+	height:400px;
+}
+.heights-5{
+	height:500px;
+}
+
+.top-jumbotron{
+	margin-bottom:0px;
+}
+
+
+/*  */
+

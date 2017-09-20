@@ -1,0 +1,16 @@
+[
+	{
+		"name":"primer",
+		"age":16,
+		"fav":"somehting"
+	},
+	{
+		"name":"hey",
+		"age":32,
+		"fav":"jog",
+		"test":{
+			"hello":"how",
+			"are":"you"
+		}
+	}
+]
