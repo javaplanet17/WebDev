@@ -19,164 +19,129 @@ session_start();
      float: none;
      margin-left: auto;
      margin-right: auto;
-  }
+ 	}
+     .list-group li{
+     	list-style-type: none;
+     }
+  
   </style>
 </head>
 <body id="myPage" class="bg-grey" data-spy="scroll" data-target=".navbar" data-offset="60">
 	<nav class="navbar navbar-default navbar-fixed-top " id="">
-		<div class="container ">
+		<div class="col-sm-9 center">
 			<div class="navbar-header">
+			<!-- mobile size right button -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand " href="index.html">Services</a>
+				
 			</div>
+		
 			<div class="collapse navbar-collapse" id="MyNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a class="" href="About.html">About</a></li>
-					<li><a class="" href="#Howitworks">How it works</a></li>
-					<li><a class="" href="#Maps">Location</a></li>
-					<li><a class="" href="Login.php">Login</a></li>
+				<ul class="list-inline navbar-center mt-2 mb-2 font-black">
+					<li class="pull-left"><a href="index.php">Services</a></li>
+					<li class="pull-left"><a href="">About</a></li>
+					<li class="pull-left"><a href="">Browse</a></li>
+					<li class="pull-left"><a href="">Location</a></li>
+					<li class="pull-right"><span class="glyphicon glyphicon-search"> search</span></li>
+					<li class="pull-right"><span class="glyphicon glyphicon-shopping-cart"> cart</span></li>
+					<li class="pull-right"><span class="glyphicon glyphicon-user"> account</span></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="container-fluid nav-cont center col-md-12 bg-grey ">
-		<div class=" row center col-md-10">
-		
-			<div class=" col-md-3 bg-white ml-1 mr-1 mt-2 height-7">
-			<img src="asset/" width="" height="">
-			<p><b>First</b></p>
-			<p>jakso</p>
-			<p><b>Last</b></p>
-			<p>Samsung</p>
-			<img src="asset/" width="" height="">
-			<p><b>Background check</b></p>
-			<p><b>Experiences</b></p>
-			<p>56 customers</p>
-			</div>
-			<!-- custom width -->
-			<div class=" col-md-8 bg-white ml-1 mr-1 mt-2 height-1">
-				<h3>Connection with</h3>
-			</div>
-			
-			<div class=" col-md-8 bg-white ml-1 mr-1 mt-2 height-6">
-				<h2>Web development</h2>
-				<p>Career</p>
-				<p><b>Rate:</b></p>
-				<p>5 stars</p>
+	<!-- this div is the background div -->
+	<div class="container-fluid nav-cont center col-md-12 bg-grey">
 
-				<ul class="navbar-nav nav ">
-					<li class="">
-						<h4>Activities</h4>
-					</li>
-					<li>
-						<h4>Reviews</h4>
-					</li>
-					<li>
-						<h4>Connections</h4>
-					</li>
-				</ul>
-			</div>		
+		<div class=" row center col-md-9 bg-white mt-2">
+			<div class="col-md-10 center">
+
+				<div class=" col-md-4 mt-5 height-7 ">
+					<div class="col-md-12">
+						<img class="center" src="asset/girl.jpg" width="230" height="200">
+					<br><br>
+					<p class="br-m-2">Review:</p>
+					<ul class="list-group">
+						<li class="mt-2">
+							<p><b>John Smith</b>
+							
+							<br>Very professional and patient person. very easy to work with and exceed expectation.</p>
+						</li>
+						<li class="mt-2">
+							<p><b>Catherine squarez</b>
+							
+							<br>He is very nice and giving a great advice, the person i go to when it come to my website. :)</p>
+						</li>
+					</ul>
+					<p class="br-m-2">Skill set:</p>
+					<ul class="list-group">
+						<li>Html</li>
+						<li>Css</li>
+						<li>Sass</li>
+						<li>Php</li>
+						<li>Javascript</li>
+					</ul>
+					</div>
+				</div>
+
+				<div class=" col-md-8 mt-5 height-6">
+					<ul class="list-inline">
+						<li><h3>Jakso Dewo</h3></li>
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-map-marker"> Virginia,US</li>
+						<li class="pull-right"><button class="btn"> Hire me </button></li>
+					</ul>
+					
+					<p class="mt-2">Rating:</p>
+					<p>5/5</p>
+
+					<ul class="list-inline mt-5 br-m-2 pb-1b">
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-share"> Shares</li>
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-comment"> Contact</li>
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-arrow-left"> Projects</li>
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-book"> About</li>
+						<li class="medium ml-1 mr-1"><span class="glyphicon glyphicon-flag"> Report</li>
+					</ul>
+					
+				</div>		
+			</div> <!-- ending of center -->
 		</div>
 	</div>
 
 	<!-- footer -->
-	<footer class="container-fluid col-md-12 center footer nav-cont bg-dark font-white padding-lt">
-
-	<div class="center col-md-11">
-		<div class=" row col-md-12">
-				<div class="col-md-6">
-				<h3>Social media</h3>
-				<ul class="nav navbar-nav col-sm-12">
-					<li class="col-md-6 height-1n bg-blue">
-						<h2>col 1</h2>
-					</li>
-					<li class="col-md-6 height-1n bg-green"> 
-						<h2>col 2</h2>
-					</li>
-					<li class="col-md-6 height-1n bg-green"> 
-						<h2>col 3</h2>
-					</li>
-					<li class="col-md-6 height-1n bg-blue">
-						<h2>col 4</h2>
-					</li>
-				</ul>
-				</div>
-
-				<div class="col-sm-6">
-				<h3>Get to know us more</h3>
-				<ul class="navbar-nav nav nons col-md-12">
-					<li>
-						<ul>
-							<h3>Hello</h3>
-							<li class="nons medium">wazzup</li>
-							<li class="nons medium">how</li>
-							<li class="nons medium">are</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-						</ul>
-					</li>
-					<li>
-						<ul>
-							<h3>Hello</h3>
-							<li class="nons medium">wazzup</li>
-							<li class="nons medium">how</li>
-							<li class="nons medium">are</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-						</ul>
-					</li>
-					<li>
-						<ul>
-							<h3>Hello</h3>
-							<li class="nons medium">wazzup</li>
-							<li class="nons medium">how</li>
-							<li class="nons medium">are</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-						</ul>
-					</li>
-					<li>
-						<ul>
-							<h3>Hello</h3>
-							<li class="nons medium">wazzup</li>
-							<li class="nons medium">how</li>
-							<li class="nons medium">are</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-							<li class="nons medium">you</li>
-						</ul>
-					</li>
-				</ul>
-					
-				</div>
-	</div>
-		
-
-		<div class=" row mt-6 col-md-12">
-			<p class="float-rt mt-5">Website made by Jakso dewo</p>
-			<h4 class="font-white">Get news of discounts from your email</h4>
-			<form class="form-inline">
-			    <div class="input-group">
-			      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-			      <div class="input-group-btn">
-			        <button type="button" class="btn btn-danger">Subscribe</button>
-			      </div>
-			    </div>
-			</form>
-		</div>
+	<footer class="container-fluid col-md-12 center footer bg-white mt-2 font-black">
+	<div class="col-sm-9 center">
+		<div class="col-md-12 br-m-1">
+		<ul class="list-inline navbar-center mt-2 mb-2 font-black">
+			<li class="pull-left bigger"><a class="font-black" href="index.html"><b>Service</b></a></li>
+			<li><b>About</b></li>
+			<li>Become member</li>
+			<li>Location</li>
+			<li>Browse</li>
+			<li>Contact</li>
+			<li class="pull-right">
+				<img src="" width="" height="" alt="facebook">
+			</li>
+			<li class="pull-right">
+				<img src="" width="" height="" alt="twitter">
+			</li>
+			<li class="pull-right">
+				<img src="" width="" height="" alt="linkedin">
+			</li>
+		</ul>
 	</div>
 	
-		
+	<div class="col-md-12">
+		<ul class="list-inline mt-2 mb-2">
+			<li class="pull-left"><a class="font-black" href="">Copyright@Jakso Dewo</a></li>
+			<li class="pull-right"><p>Terms & Services</p></li>
+			<li class="pull-right"><p>Website Purpose</p></li>
+		</ul>
+	</div>
+	</div>
 	</footer>
-
 </body>
 </html>

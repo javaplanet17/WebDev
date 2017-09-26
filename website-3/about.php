@@ -19,29 +19,40 @@
 </head>
 <body id="myPage" class="bg-grey" data-spy="scroll" data-target=".navbar" data-offset="60">
   <nav class="navbar navbar-default navbar-fixed-top " id="">
-    <div class="container ">
+    <div class="col-sm-9 center">
       <div class="navbar-header">
+      <!-- mobile size right button -->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand " href="index.html">Services</a>
+        
       </div>
+    
       <div class="collapse navbar-collapse" id="MyNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="" href="About.html">About</a></li>
-          <li><a class="" href="#Howitworks">How it works</a></li>
-          <li><a class="" href="#Maps">Location</a></li>
-          <li><a class="" href="Login.php">Login</a></li>
+        <ul class="list-inline navbar-center mt-2 mb-2 font-black">
+          <li class="pull-left"><a href="index.php">Services</a></li>
+          <li class="pull-left"><a href="">About</a></li>
+          <li class="pull-left"><a href="">Browse</a></li>
+          <li class="pull-left"><a href="">Location</a></li>
+          <li class="pull-right"><span class="glyphicon glyphicon-search"> search</span></li>
+          <li class="pull-right"><span class="glyphicon glyphicon-shopping-cart"> cart</span></li>
+          <li class="pull-right"><span class="glyphicon glyphicon-user"> account</span></li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <div class="col-sm-9 bg-blue-lt height-5">
+    
+  </div>
+  <div class="col-sm-3 bg-dark height-5">
+    
+  </div>
 <!-- about us section -->
-  <div class="container-fluid nav-cont col-md-8 center bg-white" id="About">
+  <div class="container-fluid nav-cont col-md-9 center bg-white" id="About">
     <div class="row">
       <div class="col-md-9 center text-center ">
         <h2>About us</h2>
@@ -80,7 +91,7 @@
   </div>
 
 <!-- employee lists -->
-	<div class="container-fluid col-md-8 center bg-white" id="Employee">
+	<div class="container-fluid col-md-9 center bg-white mt-2" id="Employee">
 		  <div class="row padding-lt mt-10">
         <h2>Our Employee</h2>
   			<p>We are Happy to serve you</p>
@@ -157,97 +168,36 @@
 	</div>
 
   <!-- footer -->
-  <footer class="container-fluid col-md-12 center footer bg-dark font-white padding-lt">
-
-  <div class="center col-md-11">
-    <div class=" row col-md-12">
-        <div class="col-md-6">
-        <h3>Social media</h3>
-        <ul class="nav navbar-nav col-sm-12">
-          <li class="col-md-6 height-1n bg-blue">
-            <h2>col 1</h2>
-          </li>
-          <li class="col-md-6 height-1n bg-green"> 
-            <h2>col 2</h2>
-          </li>
-          <li class="col-md-6 height-1n bg-green"> 
-            <h2>col 3</h2>
-          </li>
-          <li class="col-md-6 height-1n bg-blue">
-            <h2>col 4</h2>
-          </li>
-        </ul>
-        </div>
-
-        <div class="col-sm-6">
-        <h3>Get to know us more</h3>
-        <ul class="navbar-nav nav nons col-md-12">
-          <li>
-            <ul>
-              <h3>Hello</h3>
-              <li class="nons medium">wazzup</li>
-              <li class="nons medium">how</li>
-              <li class="nons medium">are</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <h3>Hello</h3>
-              <li class="nons medium">wazzup</li>
-              <li class="nons medium">how</li>
-              <li class="nons medium">are</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <h3>Hello</h3>
-              <li class="nons medium">wazzup</li>
-              <li class="nons medium">how</li>
-              <li class="nons medium">are</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <h3>Hello</h3>
-              <li class="nons medium">wazzup</li>
-              <li class="nons medium">how</li>
-              <li class="nons medium">are</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-              <li class="nons medium">you</li>
-            </ul>
-          </li>
-        </ul>
-          
-        </div>
-  </div>
-    
-
-    <div class=" row mt-6 col-md-12">
-      <p class="float-rt mt-5">Website made by Jakso dewo</p>
-      <h4 class="font-white">Get news of discounts from your email</h4>
-      <form class="form-inline">
-          <div class="input-group">
-            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-danger">Subscribe</button>
-            </div>
-          </div>
-      </form>
-    </div>
+  <footer class="container-fluid col-md-12 center footer bg-dark font-white">
+  <div class="col-sm-9 center">
+    <div class="col-md-12 br-m-1">
+    <ul class="list-inline navbar-center mt-2 mb-2 font-black">
+      <li class="pull-left bigger"><a class="font-black" href="index.html"><b>Service</b></a></li>
+      <li><b>About</b></li>
+      <li>Become member</li>
+      <li>Location</li>
+      <li>Browse</li>
+      <li>Contact</li>
+      <li class="pull-right">
+        <img src="" width="" height="" alt="facebook">
+      </li>
+      <li class="pull-right">
+        <img src="" width="" height="" alt="twitter">
+      </li>
+      <li class="pull-right">
+        <img src="" width="" height="" alt="linkedin">
+      </li>
+    </ul>
   </div>
   
-    
+  <div class="col-md-12">
+    <ul class="list-inline mt-2 mb-2">
+      <li class="pull-left"><a href="">Copyright@Jakso Dewo</a></li>
+      <li class="pull-right"><p>Terms & Services</p></li>
+      <li class="pull-right"><p>Website Purpose</p></li>
+    </ul>
+  </div>
+  </div>
   </footer>
-
 </body>
 </html>
