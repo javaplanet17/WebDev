@@ -1,0 +1,36 @@
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center; }
+
+.content-1 {
+  background-color: #555555;
+  height: 500px; }
+
+.navbar {
+  background-color: #212121; }
+
+.navbar ul li {
+  display: inline;
+  padding-top: 5%; }
+
+.navbar-left li {
+  display: inline-block;
+  height: 80px; }
+
+.navbar-left h3 {
+  width: 150px; }
+
+.navbar-left-menu {
+  background-color: #white;
+  color: #red; }
+
+.navbar-right li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=style.css.map */
