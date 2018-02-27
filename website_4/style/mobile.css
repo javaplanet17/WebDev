@@ -1,0 +1,67 @@
+
+@media only screen and (max-width: 768px){
+
+	.header-inner article {
+		width: 50%;
+	} 
+	.header-inner aside{
+		width: 50%;
+		float: right;
+	}
+	nav ul {
+		display: none;
+	}
+	#logo{
+		float: left;
+	}
+	#menu-icon{
+		float: right;
+		display:block;
+	}
+	.banner{
+		
+	}
+	.reason{
+		height:700px;
+	}
+	.portofolio{
+		height: 700px;
+	}
+	footer{
+		height: 300px;
+	}
+	footer .left{
+		margin-left: 50px;
+	}
+	h1{
+	font-size:100%;
+	}
+	article {
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	article img{
+		font-size: 50%;
+		margin-left: 50px;
+	}
+	article a{
+		font-size: 100%;
+		margin-left: 50px;
+	}
+	article h1{
+		font-size: 160%;
+		margin-left: 50px;
+		width: 60%;
+	}
+	aside h1{
+		font-size: 30px;
+		margin-left: 50px;
+		margin-top: -150px;
+
+	}
+	aside ul{
+		margin-left: 50px;
+	}
+}

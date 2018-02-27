@@ -1,0 +1,190 @@
+@import "reset.css";
+@import "mobile.css";
+@import "slider.css";
+
+body{
+	background-color:#F9F9F9;
+	color:#000000;
+	font-family: 'Alegreya', sans-serif;
+	margin:0;
+}
+
+/* tags */
+h1{
+	font-size: 200%;
+	font-weight: 700;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	padding-top: 15px;
+	background-color:#FFA300;
+}
+
+
+
+/* sections */
+#logo{
+	float: left; 
+	width: 40px;
+	height: 40px;
+	background: url(../img/Construction_black_50.png) no-repeat center;
+}
+
+
+/* hidden for mobile */
+#menu-icon{
+	display: hidden;
+	width: 35px;
+	height: 35px;
+	background: url(../img/menu/menu_black_40.png) center no-repeat;
+}
+
+/* navigation */
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style-type: none;
+}
+
+/* navigation style*/
+nav ul li{
+	font-size: 100%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	font-family: 'Alegreya', sans-serif;
+}
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #4E4E4E;
+	padding-bottom: 7px;
+	border-bottom: 4px solid #4E4E4E;
+}
+.current{
+	color:#6A6A6A;
+}
+
+/* banner */
+
+.banner{
+	width: 100%;
+	height: 400px;
+	background:url('../img/1.png') ;
+	background-color:#FFA300;
+	
+}
+aside{
+	width: 45%;
+	float: right;
+	height: 150px;
+}
+aside nav{
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+aside h1{
+	width: 70%;
+	font-size: 280%;
+	float: left;
+	text-align: left;
+}
+aside ul li p{
+	margin-top: 5px;
+	color:#6A6A6A;
+}
+.reason-inner aside ul{
+	margin-top: 70px;
+}
+.reason-inner aside ul li{
+	margin-bottom: 20px;
+	width: 60%;
+}
+.reason-inner aside ul li b{
+	margin-left: 10px;
+}
+.reason-inner aside ul li p{
+	margin-left: 43px;
+}
+.portofolio-inner aside ul{
+	margin-top: 70px;
+}
+.portofolio-inner aside ul li{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+article{
+	float: left;
+	width: 55%;
+	height: 150px;
+}
+article a{
+	width: 30%;
+	margin-right: auto;
+	margin-left: 190px;
+	font-size: 350%;
+}
+article img{
+	width: 50%;
+	margin-top: -50px;
+	margin-right: auto;
+	margin-left: 150px;
+	font-size: 350%;
+}
+article h1{
+	width: 30%;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: 150px;
+	font-size: 350%;
+	border-bottom: #FFA300 solid 5px;
+}
+
+
+/* reason and portofolio */
+
+.reason{
+	height: 400px;
+	background-color: #4E4E4E;
+}
+.portofolio{
+	height: 400px;
+	background-color: #6A6A6A;
+}
+/* footer */
+footer{
+	height: 150px;
+	background-color: #B2B2B2;
+}
+footer h4{
+	font-family: 'Alegreya', sans-serif;
+}
+
+footer .left{
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 150px;
+}
+
+footer .left p{
+	width: 70%;
+}
+
+footer ul {
+	padding-top: 40px;
+}
+
+footer ul li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+

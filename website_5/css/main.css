@@ -1,0 +1,88 @@
+@import "header.css";
+@import "footer.css";
+@import "reset.css";
+@import "mobile.css";
+
+
+/* right and left by article and aside*/
+
+article{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+aside{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+
+/* right and left*/
+
+.left{
+	float: left;
+	width: 45%;
+	background-color: blue;
+}
+
+.right{
+	float: right;
+	width: 55%;
+	background-color: red;
+}
+
+section{
+	width: 100%;
+	height: 400px;
+}
+
+/*banner*/
+.banner article{
+	background: url(img/.jpg);
+}
+
+.banner aside{
+	height: 100%;
+	background-color: #1F2235;
+}
+
+.banner li,.banner h2,.banner p,.banner b{
+	color: white;
+}
+
+/* hotel and house */
+
+.title{
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	height: 50px;
+	
+	border-bottom: 2px solid black;
+}
+.hotel{
+	background-color: purple;
+}
+.house{
+	background-color: green;
+}
+.partner{
+	background-color: yellow;
+}
+.partner h2{
+	text-align: center;
+	padding-bottom: 0px;
+}
+.partner aside img{
+	text-align: center;
+}
+.partner article{
+	text-align: left;
+}
+.right ul li{
+	display: inline-block;
+	width: 45%;
+	height: 45%;
+}
