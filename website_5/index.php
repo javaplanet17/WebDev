@@ -2,34 +2,34 @@
 	include "php/header.php";
 	include "php/footer.php";
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>construction site</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
 </head>
 <body>
 	<header>
-		<article>
+		<div class="header-left">
 			<ul>
-				<li><a href="img/icon.png" id="menu-icon">icon</a></li>
+				<li><a href="img/icon.png" width="50px" height="50px"></a></li>
 				<li><a href="php/member.php">Account</a></li>
 			</ul>
-		</article>
-		<aside>
-			<nav>
-				<a href="img/menubar.png" id="menu-bar"></a>
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Book a room</a></li>
-					<li><a href="">Deals</a></li>
-					<li><a href="">Rewards</a></li>
-				</ul>
-			</nav>
-		</aside>
+		</div>
+		<div class="header-right">
+			<div class="aside">
+				<nav>
+					<a href="img/menubar.png" id="menu-bar"></a>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Book a room</a></li>
+						<li><a href="">Deals</a></li>
+						<li><a href="">Rewards</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
 
 	<section class="banner">
@@ -38,23 +38,34 @@
 		</article>
 
 		<aside>
-			<h2>Book a room</h2>
-			<p>Find a great deal in hotel room when you book with us.</p>
+			<div class="aside">
+				<h2>Book a room</h2>
+				<p>Find a great deal in hotel room when you book with us.</p>
 
-			<b>Destination:</b>
+				<p><b>Destination:</b></p>
 
-			<b>Check in:</b>
-			<b>Check out:</b>
-			<button>adults</button>
-			<button>no children</button>
-			<button>room</button>
-			<p>Travel for works</p>
-			<button>search</button>
+				<ul class="banner-form-2">
+					<li>Check in:</li>
+					<li>Check out:</li>
+				</ul>
+				
+				<ul class="banner-form-3">
+					<li><button>adults</button></li>
+					<li><button>no children</button></li>
+					<li><button>room</button></li>
+				</ul>
+
+				<ul class="banner-form-2">
+					<li>Travel for work</li>
+					<li><button>Search</button></li>
+				</ul>
+			</div>
 		</aside>
 	</section>
 
-	<section class="hotel four-list">
+	<section class="hotel">
 		<h2 class="title">Hotel Room</h2>
+		
 		<div class="left">
 			<img src="img/hotel1.jpg">
 		</div>
@@ -69,10 +80,12 @@
 		</div>
 	</section>
 		
-	<section class="house four-list">
+	<section class="house">
 		<h2 class="title">House Room</h2>
+		
 		<div class="left">
 			<img src="img/house1.jpg">
+			
 		</div>
 
 		<div class="right">
@@ -85,7 +98,7 @@
 		</div>
 	</section>
 		
-	<section class="partner four-list">
+	<section class="partner">
 		<h2 class="title">Become Our Partner</h2>
 		<article>
 			<b>Make money renting your room</b>
@@ -94,30 +107,31 @@
 			<button>Sign up</button>
 		</article>
 		<aside>
-			<img src="img/money.png">
+			<img src="img/money.png" width="100px" height="100px">
 		</aside>
 	</section>
 	
 	<footer>
 		<div class="top">
 			<h3>Easy and Secure</h3>
-			<p>It is easy and secure to book a room and pay. leave your wallet at home and book with your Mobile Devices. </p>
+			<p>It is easy and secure to book a room and pay. leave your wallet at home and book with your Mobile Devices.</p>
 		</div>
 		<div class="bottom">
-			<article>
+			<div class="footer-left">
 				<ul>
 					<li><img src="img/icon.png"></li>
 					<li><p>Hotel Mania</p></li>
 				</ul>
 			</article>
-			<aside>
+			<div class="footer-right">
 				<ul>
 					<li>About us</li>
 					<li>Careers</li>
 					<li>Contact Us</li>
 				</ul>
-			</aside>
+			</div>
 		</div>
 	</footer>
+
 </body>
 </html>

@@ -1,0 +1,34 @@
+header{
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+header ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+header div{
+	width: 30%;
+}
+.left{
+	float: left;
+	text-align: left;
+}
+
+.middle{
+	margin: auto;
+	text-align: center;
+}
+.middle ul li{
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+header .right{
+	margin-top: 0px;
+	float: right;
+	text-align: right;
+}

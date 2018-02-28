@@ -1,0 +1,28 @@
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+section{
+	height: 200px;
+}
+ul li{
+	display: inline-block;
+}
+article{
+	float: left;
+	width: 50%;
+}
+aside{
+	float: right;
+	width: 50%;
+}
+
+.download{
+	border:none;
+	padding:10px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	color:blue;
+	background-color: white;
+}

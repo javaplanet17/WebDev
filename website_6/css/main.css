@@ -1,8 +1,110 @@
+@import "all.css";
 @import "reset.css";
 @import "mobile.css";
 @import "header.css";
 @import "footer.css";
 
-header ul li {
+
+section{
+	width: 100%;
+	height: 400px;
+}
+
+section .left{
+	float: left;
+	height: 100%;
+	text-align: right;
+}
+
+section .middle{
+	margin: auto;
+	height: 100%;
+}
+section .middle ul li{
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+section div{
+	width: 30%;
+}
+section .right{
+	margin-top: 0px;
+	float: right;
+	height: 100%;
+}
+
+/* banner */
+.banner h2{
+	width: 100%;
+}
+.banner .left ul{
+	width: 40%;
+	float: right;
+}
+.banner .left ul li{
 	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	border:1px solid black;
+}
+.banner p{
+	width: 100%;
+}
+.banner .left ul{
+	margin-top: 10px;
+}
+.banner .right ul li{
+	display: inline-block;
+}
+.content .left ul{
+	margin-top: 20px;
+}
+.content .left ul li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*small*/
+.articlesmall{
+	float: left;
+	width: 50%;
+	height: 20px;
+}
+.asidesmall{
+	float: right;
+	width: 50%;
+	height: 20px;
+}
+/*big*/
+article{
+	float: left;
+	width: 50%;
+	height: 150px;
+}
+aside{
+	float: right;
+	width: 50%;
+	height: 150px;
+}
+
+/*div on banner*/
+.size{
+	margin-top: 0px;
+	width: 100%;
+}
+.color{
+	margin-top: 30px;
+	width: 100%;
+}
+.quantity{
+	margin-top: 30px;
+	width: 100%;
+}
+.description{
+	margin-top: 30px;
+	width: 100%;
 }

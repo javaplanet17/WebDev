@@ -1,0 +1,51 @@
+/* start */
+section{
+	width: 100%;
+	height: 500px;
+}
+
+/* end */
+article{
+	float: left;
+	width: 50%;
+}
+
+/* end */
+aside{
+	float: right;
+	width: 50%;
+}
+
+/* end */
+.left{
+	float: left;
+	width: 45%;
+	height: 79.4%;
+}
+.left img{
+	width: 80%;
+	height: 97%;
+	float: right;
+}
+
+/* end */
+.right{
+	float: right;
+	width: 55%;
+	height: 79.4%;
+}
+.right img{
+	width: 100%;
+	height: 100%;
+}
+.right ul{
+	width: 100%;
+	height: 100%;
+}
+.right ul li{
+	display: inline-block;
+	width: 45%;
+	height: 45%;
+	margin: 5px;
+}
+

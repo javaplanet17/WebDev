@@ -1,5 +1,13 @@
 *{
-	margin:0;
-	padding:0;
-	border:0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,li,a,p,b,i{
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
 }

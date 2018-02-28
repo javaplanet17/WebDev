@@ -2,87 +2,88 @@
 @import "footer.css";
 @import "reset.css";
 @import "mobile.css";
+@import "all.css";
 
 
-/* right and left by article and aside*/
-
-article{
-	float: left;
-	width: 50%;
-	height: 100%;
-}
-
-aside{
-	float: right;
-	width: 50%;
-	height: 100%;
-}
-
-
-/* right and left*/
-
-.left{
-	float: left;
-	width: 45%;
-	background-color: blue;
-}
-
-.right{
-	float: right;
-	width: 55%;
-	background-color: red;
-}
-
-section{
-	width: 100%;
+/*end*/
+.banner {
 	height: 400px;
 }
-
-/*banner*/
 .banner article{
 	background: url(img/.jpg);
 }
 
 .banner aside{
-	height: 100%;
 	background-color: #1F2235;
+	height: 100%;
 }
-
+.aside{
+	width: 95%;
+	float: right;
+}
 .banner li,.banner h2,.banner p,.banner b{
 	color: white;
 }
+.banner h2{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.banner p{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.banner-form-3 {
+	margin-bottom: 20px;
+}
+.banner-form-3 li{
+	display: inline-block;
+}
+.banner-form-3 li button{
+	width: 80px;
+	height: 30px;
+	background-color: white;
+}
+.banner-form-2{
+	margin-bottom: 20px;
+}
+.banner-form-2 li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
-/* hotel and house */
-
+/* end */
 .title{
 	text-align: center;
 	width: 30%;
 	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-top: 20px;
 	height: 50px;
-	
 	border-bottom: 2px solid black;
 }
+
+/* end */
 .hotel{
-	background-color: purple;
+	background-color: #6CF12B;
 }
+
+/* end */
 .house{
-	background-color: green;
+	background-color: #1F2235;
 }
+
+/* end */
 .partner{
-	background-color: yellow;
+	background-color: white;
 }
 .partner h2{
 	text-align: center;
-	padding-bottom: 0px;
 }
 .partner aside img{
 	text-align: center;
 }
 .partner article{
 	text-align: left;
-}
-.right ul li{
-	display: inline-block;
-	width: 45%;
-	height: 45%;
 }

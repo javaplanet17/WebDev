@@ -2,5 +2,142 @@
 @import "header.css";
 @import "footer.css";
 @import "mobile.css";
+@import "all.css";
 
+.banner{
+	height: 300px;
+}
+.banner h1{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.banner p{
+	width: 70%;
+	margin-bottom: 20px;
+}
+.banner button{
+	border:1px solid grey;
+	padding:10px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.banner aside{
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* end */
+.status ul{
+	margin:0 auto;
+	text-align: center;
+	width: 100%;
+}
+.status ul li{
+	width: 24%;
+}
+.status ul li h2{
+	padding-bottom: 25px;
+}
+
+/* end */
+.features{
+	height: 550px;
+	text-align: center;
+}
+
+.features ul li{
+	width: 27%;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+	border:1px solid black;
+	padding:30px 0;
+}
+.features ul li img{
+	margin-bottom: 70px;
+}
+.features ul li h2{
+	margin-bottom: 70px;
+}
+.features ul li p{
+	margin: 0 auto;
+	margin-bottom: 70px;
+	text-align: justify;
+	width: 70%;
+}
+.features ul li button {
+	border:1px solid black;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 80px;
+}
+
+/* end */
+.activity{
+	height: 350px;
+}
+.activity h1{
+	margin-bottom: 10px;
+}
+.activity ul {
+	margin-bottom: 20px;
+}
+.activity ul li{
+	margin:0 10px;
+}
+.activity, .activity table {
+	margin:0 auto;
+	text-align: center;
+}
+
+/* end */
+.additional{
+	width: 80%;
+	margin: 0 auto;
+}
+.small-box{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	border:1px solid black;
+}
+.additional img, .additional h3, .additional p{
+	margin-bottom: 15px;
+}
+
+/* end */
+.founder{
+	text-align: center;
+	height: 500px;
+	padding-top: 50px;
+}
+.founder h2{
+	margin-bottom: 30px;
+}
+.founder img{
+	margin-bottom: 15px;
+}
+.founder p{
+	margin-bottom: 10px;
+}
+.box-big{
+	border:1px solid black;
+	width: 45%;
+	margin: 0 auto;
+	padding: 40px 100px;
+}
+.founder .box-big-divider{
+	margin-bottom: 50px;
+}
+.founder .box-big-close{
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+.founder .box-big-status{
+	color: grey;
+	font-size: 14px;
+}
 
