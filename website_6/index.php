@@ -12,8 +12,8 @@
 			<div class="inner">
 				<div class="left">
 					<ul>
-						<li><img src="img/icon.png" width="30px" height="10px"></li>
-						<li><a href="index.php">Creditor</a></li>
+						<li><img src="img/icon.png" width="30px" height="30px"></li>
+						<li style="vertical-align: top;"><a href="index.php">Credit card hero</a></li>
 					</ul>
 				</div>
 					
@@ -36,6 +36,7 @@
 				<div class="left">
 					<h1>Credit Card Hero</h1>
 					<p>oifhaiod ldhfl sdgl sdg lisdil sdl idhsl slghas lghsoi ghewo ihgalh goashg oag reoigeao gri gaer hiae</p>
+					<button>Sign me Up</button>
 				</div>
 				<div class="right">
 					<img src="img/banner.png" width="300px" height="300px">
@@ -48,21 +49,21 @@
 				<ul>
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
 					</li>
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
 					</li>
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
@@ -70,21 +71,21 @@
 					<!-- half the list -->
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
 					</li>
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
 					</li>
 					<li>
 						<div class="features-list">
-							<img src="img/list1.png">
+							<img src="img/list1.png" width="100px" height="100px">
 							<p><b>Easy to apply</b></p>
 							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
@@ -96,7 +97,7 @@
 		<section class="requisite">
 			<div class="inner">
 				<div class="top">
-					<h2>What is the benefit in applying credit card with us?</h2>
+					<h1>What is the benefit in applying credit card with us?</h1>
 				</div>
 				<div class="middle">
 					<div class="left">
@@ -107,7 +108,7 @@
 						<ul>
 							<li>
 								<div class="requisite-list">
-									<img src="img/house.png">
+									<img src="img/house.png" width="50px" height="50px">
 									<p><b>Closer to your dream home</b></p>
 									<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
 								</div>
@@ -115,7 +116,7 @@
 							</li>
 							<li>
 								<div class="requisite-list">
-									<img src="img/bussiness.png">
+									<img src="img/bussiness.png" width="50px" height="50px">
 									<p><b>Closer to your dream home</b></p>
 									<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
 								</div>
@@ -123,7 +124,7 @@
 							</li>
 							<li>
 								<div class="requisite-list">
-									<img src="img/investment.png">
+									<img src="img/investment.png" width="50px" height="50px">
 									<p><b>Closer to your dream home</b></p>
 									<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
 								</div>
@@ -131,7 +132,7 @@
 							</li>
 							<li>
 								<div class="requisite-list">
-									<img src="img/medical.png">
+									<img src="img/medical.png" width="50px" height="50px">
 									<p><b>Closer to your dream home</b></p>
 									<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
 								</div>
@@ -142,7 +143,7 @@
 				</div>
 				
 				<div class="bottom">
-					<img src="img/house.png">
+					<img src="img/house.png" width="250px" height="100px">
 				</div>
 			</div>
 		</section>
@@ -150,7 +151,7 @@
 		<section class="start">
 			<div class="inner">
 				<div class="center">
-					<img src="img/tree.png">
+					<img src="img/tree.png" width="200px" height="200px">
 					<h2>Lets get you start up now.</h2>
 					<p>you will only need your current debit card or bank account. And you will need your goverment identification.</p>
 					<button>Create Account</button>
@@ -177,16 +178,16 @@
 				<div class="right">
 					<div class="top">
 						<ul>
-							<li><img src="img/icon.png"></li>
-							<li><p>Credit card hero</p></li>
+							<li><img src="img/icon.png" width="30px" height="30px"></li>
+							<li style="vertical-align: top;"><p>Credit card hero</p></li>
 						</ul>
 					</div>
 					<div class="bottom">
 						<ul>
-							<li><img src="img/facebook.png"></li>
-							<li><img src="img/twitter.png"></li>
-							<li><img src="img/instagram.png"></li>
-							<li><img src="img/rss.png"></li>
+							<li><img src="img/facebook.png" width="30px" height="30px"></li>
+							<li><img src="img/twitter.png" width="30px" height="30px"></li>
+							<li><img src="img/instagram.png" width="30px" height="30px"></li>
+							<li><img src="img/rss.png" width="30px" height="30px"></li>
 						</ul>
 					</div>
 				</div>
