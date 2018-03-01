@@ -1,0 +1,26 @@
+header{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
+
+header ul li{
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+header .left{
+	float: left;
+	text-align: left;
+}
+
+header .right{
+	float: right;
+	text-align: right;
+}
+
+header .right ul li{
+	margin-left: 10px;
+	margin-right: 10px;
+}

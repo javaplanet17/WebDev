@@ -5,3 +5,64 @@
 @import "footer.css";
 
 
+
+.banner h1{
+	margin-top: 80px;
+}
+.banner p{
+	margin-top: 10px;
+	width: 70%;
+}
+.banner img{
+	margin-top: 50px;
+	text-align: right;
+	background-color: black;
+}
+
+/*end*/
+.features {
+	height: 450px;
+	background-color: yellow;
+}
+.features ul{
+	width: 100%;
+	text-align: center;
+	
+}
+.features ul li{
+	width: 25%;
+	height: 150px;
+	display: inline-block;
+	margin:5px;
+	padding: 15px;
+	padding-top:50px;
+	background-color: red;
+}
+
+
+/*end*/
+.requisite{
+	height: 400px;
+	background-color: blue;
+}
+.requisite h2{
+	margin-bottom: 10px;
+}
+.requisite .left p{
+	width: 70%;
+	margin-top: 5px;
+}
+.requisite .inner .right ul {
+	height: 250px;
+}
+.requisite .inner .right ul li{
+	width: 24%;
+	height: 100%;
+	display: inline-block;
+	background-color: yellow;
+}
+.requisite-list{
+	text-align: left;
+	width: 100px;
+	height: 100%;
+}
