@@ -1,2 +1,2 @@
 # webdev
-test or trial of website pages
+compilation of websites development that i have been working on
