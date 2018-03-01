@@ -9,35 +9,40 @@
 <body>
 	<div class="wrapper">
 	<header>
-		<div class="right">
-			<a href="membership.php">Account</a>
-		</div>
-		<div class="left">
-			<a href="index.php"><img src="img/icon.png" width="40px" height="40px"></a>
-			<a href="index.php">Notepal</a>
-		</div>
-		<div class="middle">
-			<nav>
-				<a href="#" id="menu-icon"></a>
-				<ul>
-					<li>Download app</li>
-					<li>About us</li>
-					<li>Contact us</li>
-				</ul>
-			</nav>
+		<div class="inner">
+			<div class="right">
+				<a href="membership.php">Account</a>
+			</div>
+			<div class="left">
+				<a href="index.php"><img src="img/icon.png" width="40px" height="40px"></a>
+				<a href="index.php">Notepal</a>
+			</div>
+			<div class="middle">
+				<nav>
+					<a href="#" id="menu-icon"></a>
+					<ul>
+						<li>Download app</li>
+						<li>About us</li>
+						<li>Contact us</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 
 	<section class="banner">
-		<article>
-			<h1>Simple way to organize your notes</h1>
-			<p>Take a note once and share it on multiple devices. compatible with IOS, Android, Mac and Window computers.</p>
-			<button class="download">Download now</button>
-			<button>Sign in</button>
-		</article>
-		<aside>
-			<img src="img/devices.png">
-		</aside>
+		<div class="inner">
+			<article>
+				<h1>Simple way to organize your notes</h1>
+				<p>Take a note once and share it on multiple devices. compatible with IOS, Android, Mac and Window computers.</p>
+				<button class="download">Download now</button>
+				<button>Sign in</button>
+			</article>
+			<aside>
+				<img src="img/devices.png">
+			</aside>
+		</div>
+		
 	</section>
 
 	<section class="status">
@@ -139,20 +144,22 @@
 	</section>
 
 	<section class="additional">
-		<article>
-			<div class="box-small">
-				<img src="img/additional-1.png" width="10px" height="10px">
-				<h3>Word Recognition</h3>
-				<p>The app is smart enough to recognize similar word when you write on the device.</p>
-			</div>
-		</article>
-		<aside>
-			<div class="box-small">
-				<img src="img/additional-2.png" width="10px" height="10px">
-				<h3>Word Recognition</h3>
-				<p>The app is smart enough to recognize similar word when you write on the device.</p>
-			</div>
-		</aside>
+		<div class="inner">
+			<article>
+				<div class="box-small">
+					<img src="img/additional-1.png" width="10px" height="10px">
+					<h3>Word Recognition</h3>
+					<p>The app is smart enough to recognize similar word when you write on the device.</p>
+				</div>
+			</article>
+			<aside>
+				<div class="box-small">
+					<img src="img/additional-2.png" width="10px" height="10px">
+					<h3>Word Recognition</h3>
+					<p>The app is smart enough to recognize similar word when you write on the device.</p>
+				</div>
+			</aside>
+		</div>
 	</section>
 
 	<section class="founder">
@@ -168,28 +175,30 @@
 	</section>
 
 	<footer>
-		<div class="top">
-			<div class="left">
-				<p><b>Download our App:</b></p>
-				<p>Available on Apple store, Google Play, or Directly from our website.</p>
+		<div class="inner">
+			<div class="top">
+				<div class="left">
+					<p><b>Download our App:</b></p>
+					<p>Available on Apple store, Google Play, or Directly from our website.</p>
+				</div>
+				<div class="right">
+					<ul>
+						<li><img src="img/facebook.png" width="50px" height="50px"></li>
+						<li><img src="img/twitter.png" width="50px" height="50px"></li>
+						<li><img src="img/linkedin.png" width="50px" height="50px"></li>
+						<li><img src="img/youtube.png" width="50px" height="50px"></i></li>
+					</ul>
+				</div>
 			</div>
-			<div class="right">
+			
+			<div class="bottom">
 				<ul>
-					<li><img src="img/facebook.png" width="50px" height="50px"></li>
-					<li><img src="img/twitter.png" width="50px" height="50px"></li>
-					<li><img src="img/linkedin.png" width="50px" height="50px"></li>
-					<li><img src="img/youtube.png" width="50px" height="50px"></i></li>
+					<li>About us</li>
+					<li>Contact us</li>
+					<li>Advertise with us</li>
+					<li>Connect with us</li>
 				</ul>
 			</div>
-		</div>
-		
-		<div class="bottom">
-			<ul>
-				<li>About us</li>
-				<li>Contact us</li>
-				<li>Advertise with us</li>
-				<li>Connect with us</li>
-			</ul>
 		</div>
 	</footer>
 	</div>

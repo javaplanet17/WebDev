@@ -1,173 +1,170 @@
 <?php ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Brando</title>
+	<title>Credit hero</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<div class="wrapper">
 		<header>
-			<div class="right">
 				<ul>
-					<li><a href="">Account</a></li>
-					<li><a href="">Cart</a></li>
+					<li><img src="img/icon.png" width="30px" height="10px"></li>
+					<li><a href="index.php">Creditor</a></li>
 				</ul>
-			</div>
-			<div class="left">
+			<nav>
 				<ul>
-					<a href="index.php"><li><img src="img/1.png" width="20px" height="20px"></li>
-					<li><h3>Brando</h3></li></ul>
-				</ul>
-			</div>
-				
-			<div class="middle">
-				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="">Brands</a></li>
-					<li><a href="">Type</a></li>
-					<li><button>search</button></li>
-				</ul>
-			</div>
+					<li><a href="benefit.html">Benefit</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="start.html">Get started</a></li>
+					<li><a href="membership.php">Account</a></li>
+				</ul>	
+			</nav>
 		</header>
 
 		<section class="banner">
-			
+			<div class="inner">
+				<div class="left">
+					<img src="img/banner.png">
+				</div>
 				<div class="right">
-					
-						<div class="size">
-							<h3>Size:</h3>
-							<article class="articlesmall">
-								<p>1</p>
-							</article>
-							<aside class="asidesmall">
-								<p>size chart</p>
-							</aside>
+					<h3>Credit Card Hero</h3>
+					<p>oifhaiod ldhfl sdgl sdg lisdil sdl idhsl slghas lghsoi ghewo ihgalh goashg oag reoigeao gri gaer hiae</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="inner">
+				<ul>
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
-						
-						<div class="color">
-							<h3>Color:</h3>
-							<ul>
-								<li><img src="img/1.png" width="50px" height="50px"></li>
-								<li><img src="img/1.png" width="50px" height="50px"></li>
-								<li><img src="img/1.png" width="50px" height="50px"></li>
-								<li><img src="img/1.png" width="50px" height="50px"></li>
-							</ul>
+					</li>
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
-						
-						<div class="quantity">
-							<h3>Quantity:</h3>
-							<p>1</p>
+					</li>
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
-						
-						<div class="description">
-							<h3>Description:</h3>
-							<p>wearable</p>
-							<p>great design</p>
-							<p>100% cotton</p>
-							<p>fire resistance</p>
+					</li>
+					<!-- half the list -->
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
 						</div>
-						
+					</li>
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
+						</div>
+					</li>
+					<li>
+						<div class="features-list">
+							<img src="img/list1.png">
+							<p><b>Easy to apply</b></p>
+							<p>No need for credit check all you need is sign up and you will get your credit card in 1 week.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="pre-requisite">
+			<div class="inner">
+				<div class="top">
+					<h2>What is the benefit in applying credit card with us?</h2>
 				</div>
 				<div class="left">
 					
-					<h2>Product Images</h2>
+				</div>
+				<div class="right">
 					<ul>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
-						<li><img src="img/1.png" width="50px" height="50px"></li>
+						<li>
+							<img src="img/house.png">
+							<p><b>Closer to your dream home</b></p>
+							<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
+						</li>
+						<li>
+							<img src="img/business.png">
+							<p><b>Closer to your dream home</b></p>
+							<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
+						</li>
+						<li>
+							<img src="img/investor.png">
+							<p><b>Closer to your dream home</b></p>
+							<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
+						</li>
+						<li>
+							<img src="img/medical.png">
+							<p><b>Closer to your dream home</b></p>
+							<p>it will get your closer to a good credit that can empower you to have your dream house.</p>
+						</li>
 					</ul>
-
 				</div>
-
-				<div class="middle">
-					<img src="img/1.png" width="200px" height="200px">
-					<h2>RONALDO</h2>
+				<div class="bottom">
+					<img src="img/house.png">
 				</div>
+			</div>
 		</section>
 
-		<section class="content">
-			<div class="right">
-				<h3>Related Products</h3>
-				<li>
-					<article>
-						<img src="img/1.png" width="120px" height="120px">
-					</article>
-					<aside>
-						<ul>
-							<li><b>Barcelona shirt</b></li>
-							<li>$ 25</li>
-							<li>ON SALE NOW</li>
-							<li>$ 20</li>
-							<li>add to cart</li>
-						</ul>
-					</aside>
-				</li>
-				<li>
-					<article>
-						<img src="img/1.png" width="120px" height="120px">
-					</article>
-					<aside>
-						<ul>
-							<li><b>Barcelona shirt</b></li>
-							<li>$ 25</li>
-							<li>ON SALE NOW</li>
-							<li>$ 20</li>
-							<li>add to cart</li>
-						</ul>
-					</aside>
-				</li>
+		<section class="start">
+			<div class="inner">
+				<div class="middle">
+					<img src="img/tree.png">
+					<h2>Lets get you start up now.</h2>
+					<p>you will only need your current debit card or bank account. And you will need your goverment identification.</p>
+					<button>Create Account</button>
+				</div>
 			</div>
-
-			<div class="left">
-				<h2>Deals on Products</h2>
-				<ul>
-					<li><img src="img/1.png" width="50px" height="50px"></li>
-					<li><img src="img/1.png" width="50px" height="50px"></li>
-					<li><img src="img/1.png" width="50px" height="50px"></li>
-				</ul>
-				<ul>
-					<li>
-						<h4>$40</h4>
-						<p>Total</p>
-					</li>
-					<li>
-						<h4>- $10</h4>
-						<p>saving</p>
-					</li>
-					<li>
-						<h4>$30</h4>
-						<p>You pay</p>
-					</li>
-				</ul>
-				
-				
-				
-			</div>
-
-			
 		</section>
 
 		<footer>
-				<div class="right">
-					<p>@ 2018 Jakso Dewo</p>
-				</div>
-				<div class="left">
+			<div class="left">
+				<div class="top">
 					<ul>
-						<li>Home</li>
-						<li>Products</li>
+						<li>About</li>
+						<li>Career</li>
+						<li>Investment</li>
 						<li>Contact</li>
+						<li>Policy</li>
 					</ul>
 				</div>
-
-				<div class="middle">
-					<img src="img/1.png" width="100px" height="100px">
+				<div class="bottom">
+					<p>Our goal is to provide an easy access for an individual to a better experience at life, no matter their origin are. we are global companies that provide credit for everyone around the world.</p>
 				</div>
+			</div>
+			<div class="right">
+				<div class="top">
+					<ul>
+						<li><img src="img/icon.png"></li>
+						<li><p>Credit card hero</p></li>
+					</ul>
+				</div>
+				<div class="bottom">
+					<ul>
+						<li><img src="img/facebook.png"></li>
+						<li><img src="img/twitter.png"></li>
+						<li><img src="img/instagram.png"></li>
+						<li><img src="img/rss.png"></li>
+					</ul>
+				</div>
+			</div>
 		</footer>
 	</div>
 </body>

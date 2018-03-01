@@ -16,6 +16,19 @@ aside{
 	width: 50%;
 }
 
+aside img{
+	text-align: center;
+	margin: 0 auto;
+}
+button{
+	width: 120px;
+	height: 30px;
+	padding: 5px;
+	background-color: green;
+	font-weight: bold;
+	font-size: 14px;
+}
+
 /* end */
 .left{
 	float: left;

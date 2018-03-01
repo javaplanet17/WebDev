@@ -85,7 +85,6 @@
 		
 		<div class="left">
 			<img src="img/house1.jpg">
-			
 		</div>
 
 		<div class="right">
@@ -101,11 +100,15 @@
 	<section class="partner">
 		<h2 class="title">Become Our Partner</h2>
 		<article>
-			<b>Make money renting your room</b>
-			<p>Did you know that you can make money with your empty room at home? you can make a lot of money when you rent your free room to a guest with our partnership program. click the button below to learn more</p>
-			<button>Read More...</button>
-			<button>Sign up</button>
+			<div class="article">
+				<p><b>Make money renting your room</b></p>
+				<p>Did you know that you can make money with your empty room at home? you can make a lot of money when you rent your free room to a guest with our partnership program. click the button below to learn more</p>
+				<button>Read More...</button>
+				<button>Sign up</button>
+			</div>
+			
 		</article>
+
 		<aside>
 			<img src="img/money.png" width="100px" height="100px">
 		</aside>
@@ -122,7 +125,7 @@
 					<li><img src="img/icon.png"></li>
 					<li><p>Hotel Mania</p></li>
 				</ul>
-			</article>
+			</div>
 			<div class="footer-right">
 				<ul>
 					<li>About us</li>

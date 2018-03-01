@@ -17,9 +17,26 @@
 	background-color: #1F2235;
 	height: 100%;
 }
+.article{
+	padding-top: 40px;
+	width: 83%;
+	float: right;
+}
+.article b{
+	font-size: 30px;
+	font-weight: bold;
+}
+.article p{
+	width: 80%;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
 .aside{
 	width: 95%;
 	float: right;
+}
+aside img{
+	padding-top: 40px;
 }
 .banner li,.banner h2,.banner p,.banner b{
 	color: white;
@@ -40,7 +57,7 @@
 	display: inline-block;
 }
 .banner-form-3 li button{
-	width: 80px;
+	width: 100px;
 	height: 30px;
 	background-color: white;
 }
@@ -61,7 +78,8 @@
 	margin-bottom: 10px;
 	padding-top: 20px;
 	height: 50px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
+	color: white;
 }
 
 /* end */
@@ -77,6 +95,10 @@
 /* end */
 .partner{
 	background-color: white;
+}
+.partner .title{
+	color: black;
+	border-bottom: 2px solid black;
 }
 .partner h2{
 	text-align: center;

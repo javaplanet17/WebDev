@@ -5,8 +5,9 @@ footer{
 	background-color: #1F2235;
 }
 footer .top{
-	margin-top: 10px;
+	
 	margin: 0 auto;
+	padding-top: 40px;
 	width: 90%;
 	text-align: center;
 }
@@ -30,4 +31,21 @@ footer aside ul li{
 	font-size: 16px;
 	font-weight: bold;
 	float: right;
+}
+
+footer h3, footer p,footer li,footer a{
+	color: white;
+}
+
+.footer-left{
+	float: left;
+}
+.footer-left ul li{
+	display: inline-block;
+}
+.footer-right {
+	float: right;
+}
+.footer-right ul li{
+	display: inline;
 }
