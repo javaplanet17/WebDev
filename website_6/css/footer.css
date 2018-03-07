@@ -37,3 +37,8 @@ footer .bottom{
 	margin-top: 30px;
 	width: 100%;
 }
+
+footer a:hover {
+	color: #30C2FC;
+
+}

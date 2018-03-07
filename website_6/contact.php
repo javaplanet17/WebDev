@@ -1,0 +1,11 @@
+<?php ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact us</title>
+</head>
+<body>
+
+</body>
+</html>

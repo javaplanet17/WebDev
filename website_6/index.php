@@ -1,4 +1,6 @@
-<?php ?>
+<?php
+include "php/header.php";
+include "php/footer.php";  ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,28 +10,7 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header>
-			<div class="inner">
-				<div class="left">
-					<ul>
-						<li><img src="img/icon.png" width="30px" height="30px"></li>
-						<li style="vertical-align: top;"><a href="index.php">Credit card hero</a></li>
-					</ul>
-				</div>
-					
-				<div class="right">
-					<nav>
-						<ul>
-							<li><a href="benefit.html">Benefit</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="start.html">Get started</a></li>
-							<li><a href="membership.php">Account</a></li>
-						</ul>	
-					</nav> 
-				</div>
-				
-			</div>
-		</header>
+		<?php echo $header;?>
 
 		<section class="banner">
 			<div class="inner">
@@ -159,41 +140,7 @@
 			</div>
 		</section>
 
-		<footer>
-			<div class="inner">
-				<div class="left">
-					<div class="top">
-						<ul>
-							<li>About</li>
-							<li>Career</li>
-							<li>Investment</li>
-							<li>Contact</li>
-							<li>Policy</li>
-						</ul>
-					</div>
-					<div class="bottom">
-						<p>Our goal is to provide an easy access for an individual to a better experience at life, no matter their origin are. we are global companies that provide credit for everyone around the world.</p>
-					</div>
-				</div>
-				<div class="right">
-					<div class="top">
-						<ul>
-							<li><img src="img/icon.png" width="30px" height="30px"></li>
-							<li style="vertical-align: top;"><p>Credit card hero</p></li>
-						</ul>
-					</div>
-					<div class="bottom">
-						<ul>
-							<li><img src="img/facebook.png" width="30px" height="30px"></li>
-							<li><img src="img/twitter.png" width="30px" height="30px"></li>
-							<li><img src="img/instagram.png" width="30px" height="30px"></li>
-							<li><img src="img/rss.png" width="30px" height="30px"></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			
-		</footer>
+		<?php echo $footer;?>
 	</div>
 </body>
 </html>
